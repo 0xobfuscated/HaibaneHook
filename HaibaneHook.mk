@@ -12,5 +12,6 @@ LOCAL_SRC_FILES := \
     $(HaibaneHookPath)/src/Memory/CodePatch.cpp
 LOCAL_C_INCLUDES := $(HaibaneHookPath)/include $(HaibaneHookPath)/src
 LOCAL_EXPORT_C_INCLUDES := $(HaibaneHookPath)/include
+LOCAL_CFLAGS := -g0
 
 include $(BUILD_STATIC_LIBRARY)

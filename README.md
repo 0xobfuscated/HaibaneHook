@@ -1,6 +1,6 @@
 # HaibaneHook
 
-A (very) minimal inline hooking library for arm64 Android.
+A (very) minimal inline hooking library for arm64 Android. It has <400 lines of code and the compiled libhaibanehook.a is only 38 KiB big.
 
 ## Usage
 
